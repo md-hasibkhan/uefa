@@ -176,11 +176,52 @@ margin-top:158px;
     height: 213px;
     
 }
-.social-midea-icon img{
+.social-media-icon img{
     color:#969BAB;
     height:17.07px;
     width:17.07px;
 }
 .copyright{
     font-size: 18px;
+}
+
+/*----------------------
+     media queries
+-------------------------*/
+/*----------------------
+     mobile devices
+-------------------------*/
+@media only screen and (max-width:688px){
+    
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .highlights{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlights-data{
+        width: 469px;
+        height: 309px;
+        margin-left:16px;
+    }
+    .highlights-image img{
+        width: 328px;
+        height: 248px;
+        margin-left: 16px;
+    }
+    .football-logo img{
+        width: 300px;
+        height: 135px;
+    }
+    .social-media-icon img{
+        height:32px;
+        width:32px;
+}
+.platform{
+    height:100px;
+    width:400px;
+    
 }
