@@ -3,6 +3,9 @@
 ------------*/
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@700&display=swap');
 
+/* -----------------
+common utilities
+------------------ */
 body{
     background-color: white;
     font-family: 'Arsenal', sans-serif;
@@ -25,6 +28,9 @@ body{
     color:#FFFFFF;
     font-size: 16px;
 }
+/* -----------------
+top banner properties
+------------------ */
 .top-container-bg{
     background-color:#2D25A0;
     width:100%;
@@ -51,7 +57,9 @@ body{
     margin-bottom: 86px;
 }
 
-/* section2 */
+/*-----------------------------
+ players profile Properties
+ ----------------------------------*/
 
 .players{
     margin-left: 180px;
@@ -91,7 +99,9 @@ body{
     margin-top:10px;
 }
 
-/* section3 */
+/* -----------------
+Highlights Properties
+------------------ */
 .highlights{
     display:flex;
 }
@@ -112,9 +122,9 @@ body{
     margin-left: 66px;
     
 }
-/*-----------
-     footer
---------------*/
+/*----------------------
+     footer Properties
+-------------------------*/
 footer{
 text-align: center;
 margin-top:158px;

@@ -1,8 +1,8 @@
 
 nav{
-    margin-top: 42px;
-    margin-right: 124px;
-    margin-left: 156px;
+    padding-top: 42px;
+    padding-right: 124px;
+    padding-left: 156px;
     display:flex;
     align-items: center;
     background-color:#2D25A0;
@@ -13,6 +13,11 @@ nav a{
     color:#FFFFFF;
     font-size: 16px;
     margin-right: 36px;
+}
+.nav-button{
+    text-decoration: none;
+    list-style: none;
+    display:flex;
 }
 nav button{
     margin-left: 450px;
