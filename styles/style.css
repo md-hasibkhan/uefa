@@ -192,6 +192,25 @@ margin-top:158px;
      mobile devices
 -------------------------*/
 @media only screen and (max-width:688px){
+    .top-container-bg{
+        width:100%;
+        height:695px;
+    }
+    .top-container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .title{
+        font-size: 36px;
+        color:white;
+        margin-top:60px;
+        margin-left:15px;
+    }
+    .image-top-right{
+        width: 329px;
+        height: 259.17px;
+        margin-top:50px;
+    }
     
     .players{
         grid-template-columns: repeat(1,1fr);
@@ -219,9 +238,9 @@ margin-top:158px;
     .social-media-icon img{
         height:32px;
         width:32px;
-}
-.platform{
-    height:100px;
-    width:400px;
-    
+    }
+    .platform{
+        height:100px;
+        width:400px;
+    }
 }
