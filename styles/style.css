@@ -93,9 +93,16 @@ top banner properties
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
 }
+.player .thumbnail{
+    overflow: hidden;
+}
 .player .thumbnail img{
     width: 300px;
     height: 256px;
+    
+}
+.player .thumbnail img:hover{
+    transform: scale(1.3);
 }
 .player-info{
     margin-left:5px;
