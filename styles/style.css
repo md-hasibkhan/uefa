@@ -1,0 +1,26 @@
+/* ----------
+    fonts 
+------------*/
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@700&display=swap');
+
+body{
+    background-color: #2D25A0;
+    font-family: 'Arsenal', sans-serif;
+}
+.top-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    font-size: 64px;
+    margin-left: 156px;
+    margin-top: 207px;
+    color:white;
+}
+.image-top-right{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+}
