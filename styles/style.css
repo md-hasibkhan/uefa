@@ -11,7 +11,7 @@ body{
     font-family: 'Arsenal', sans-serif;
 }
 .button{
-    border: none;
+    background-color:#E02C6D;
     color: white;
     padding: 10px;
     text-align: center;
@@ -27,6 +27,9 @@ body{
     text-decoration: none;
     color:#FFFFFF;
     font-size: 16px;
+}
+#banner-button{
+    margin-bottom: 16px;
 }
 /* -----------------
 top banner properties
@@ -56,6 +59,14 @@ top banner properties
     margin-top: 153px;
     margin-bottom: 86px;
 }
+
+/*--------------------- 
+         transition
+---------------------- */
+.image-top-right:hover{
+    transform: scale(1.4);
+}
+
 
 /*-----------------------------
  players profile Properties
@@ -121,6 +132,30 @@ Highlights Properties
     height: 427px;
     margin-left: 66px;
     
+}
+
+/* animation for extra section */
+@keyframes sliding{
+    from{
+        left:0px;
+
+    }
+    to{
+        left:400px;
+    }
+}
+
+.platform{
+    height:100px;
+    width:1000px;
+    
+}
+.ball img{
+    height: 200px;
+    width:200px;
+    position: relative;
+    animation: sliding 5s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
 }
 /*----------------------
      footer Properties
