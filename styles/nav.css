@@ -4,8 +4,8 @@ nav{
     margin-right: 124px;
     margin-left: 156px;
     display:flex;
-    border: 1px dashed cyan;
     align-items: center;
+    background-color:#2D25A0;
     
 }
 nav a{
