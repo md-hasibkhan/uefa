@@ -7,11 +7,28 @@ body{
     background-color: white;
     font-family: 'Arsenal', sans-serif;
 }
+.button{
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+    
+}
+.button a{
+    background-color:#E02C6D;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 16px;
+}
 .top-container-bg{
     background-color:#2D25A0;
-    display: absolute;
     width:100%;
-    height:677px;
+    /* height:677px; */
     margin:0px;
     margin-bottom: 70px;
 }
@@ -25,6 +42,7 @@ body{
     margin-left: 156px;
     margin-top: 207px;
     color:white;
+   
 }
 .image-top-right{
     width: 556.01px;
@@ -74,14 +92,38 @@ body{
 }
 
 /* section3 */
-.highlights-data{
+.highlights{
     display:flex;
+}
+.highlights-data{
+    width: 469px;
+    height: 309px;
+    margin-left:182px;
 }
 .title-highlights{
     font-weight:700;
     font-size: 48px;
+    
 }
-.highlights-image{
+
+.highlights-image img{
     width: 567px;
     height: 427px;
+    margin-left: 66px;
+    
+}
+/* footer */
+footer{
+text-align: center;
+margin-top:158px;
+}
+.football-logo img{
+    width: 483.87px;
+    height: 213px;
+    
+}
+.icon fas fa-globe{
+    
+    color: #969BAB;
+    margin-right: 140px;
 }
