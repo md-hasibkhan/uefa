@@ -112,7 +112,9 @@ body{
     margin-left: 66px;
     
 }
-/* footer */
+/*-----------
+     footer
+--------------*/
 footer{
 text-align: center;
 margin-top:158px;
@@ -122,8 +124,11 @@ margin-top:158px;
     height: 213px;
     
 }
-.icon fas fa-globe{
-    
-    color: #969BAB;
-    margin-right: 140px;
+.social-midea-icon img{
+    color:#969BAB;
+    height:17.07px;
+    width:17.07px;
+}
+.copyright{
+    font-size: 18px;
 }
